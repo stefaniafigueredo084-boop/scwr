@@ -1,0 +1,14 @@
+main {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+}
+
+.producto-chicle {
+  background-color: red;
+}
+
+img {
+  width: 200px;
+}

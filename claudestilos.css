@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 50px;
+}
+.hero {
+  width: 67%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.texto {
+  font-size: 60px;
+  width: 550px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-parrafo {
+  text-align: center;
+  width: 550px;
+  font-size: 25px;
+}
+.card {
+  width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid grey;
+}
+.botton1 {
+}
