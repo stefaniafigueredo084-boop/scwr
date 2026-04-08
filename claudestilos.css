@@ -1,20 +1,26 @@
+body {
+  background-color: hsl(48 33.3% 97.1% / 1);
+}
+
 .container {
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 50px;
 }
 .hero {
-  width: 67%;
+  width: 70%;
   height: 100vh;
   margin: 0 auto;
   display: flex;
   align-items: center;
 }
 .texto {
-  font-size: 60px;
+  font-size: 64px;
   width: 550px;
   font-weight: lighter;
   text-align: center;
+  margin-top: 120px;
+  margin-bottom: 0px;
 }
 
 .hero-info {
@@ -25,15 +31,73 @@
 .hero-parrafo {
   text-align: center;
   width: 550px;
-  font-size: 25px;
+  font-size: 20px;
+  margin: 0px;
+  margin: 20px 0px;
 }
 .card {
   width: 400px;
-
+  height: 320px;
+  border-radius: 7%;
+  padding: 28px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid grey;
+  border: 1px solid hsl(30deg 3.3% 11.8% / 15%);
+  background-color: hsl(48 33.3% 97.1% / 1);
 }
 .botton1 {
+  margin: 0% auto;
+  height: 45px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  font-size: medium;
+}
+.imag {
+  height: 800px;
+  width: 700px;
+  border-radius: 20px;
+}
+.botton2 {
+  margin: 0% auto;
+  height: 45px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-google {
+  width: 40px;
+}
+.input {
+  margin: 0% auto;
+  height: 45px;
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  font-size: medium;
+}
+.o {
+  font-size: 20px;
+}
+.textogris {
+  font-size: 14px;
+  text-align: center;
+  color: rgb(116, 115, 115);
+}
+.botonfuera {
+  margin: 0% auto;
+  height: 45px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin-top: 5%;
+  font-size: medium;
 }
