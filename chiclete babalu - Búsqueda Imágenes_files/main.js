@@ -1,32 +1,15 @@
-const dni = prompt("ingresa DNI");
-if (dni.length < 7) {
-  alert("acceso denegado");
-} else if (dni.length > 8) {
-  alert("acceso permitido");
-}
+let botonApretar = Document.getElementById("boton-apretar");
+const mensaje = document.getElementById(mensaje);
 
-const nombre = prompt("ingrese nombre de ususario");
-alert("hola" + " " + nombre);
-if (nombre.length < 5) {
-  alert("acceso denegado");
-} else if (nombre.length > 9) {
-  alert("acceso permitido");
-}
+let estadoMensaje = false;
+console.log(botonApretar);
 
-const apellido = prompt("ingrese su apellido");
-alert("hola" + " " + nombre - apellido);
-if (apellido.length < 7) {
-  alert("acceso denegado");
-} else if (apellido.length > 20) {
-  alert("acceso permitido");
-}
-
-const email = prompt("ingrese su email");
-alert("acceso permitido");
-
-const edad = 18;
-if (edad > 18 && edad < 120) {
-  alert("PODES ENTRAR");
-} else if (edad < 18) {
-} else if (edad < 18) {
-}
+botonApretar.addEventListener("click", () => {
+  if (estadoMensaje == false) {
+    mensaje.textContent = "holaa";
+    estadoMensaje = true;
+  } else {
+    mensaje.textContent = "";
+    estadoMensaje = false;
+  }
+});
