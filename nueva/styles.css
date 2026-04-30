@@ -1,0 +1,23 @@
+div {
+  background-color: rgb(105, 105, 105);
+  width: 300px;
+  height: 200px;
+}
+
+.abajo {
+  padding-top: 10px;
+  margin-top: 15px;
+  display: none;
+}
+
+li {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.aparecer-menu {
+  display: block;
+}
